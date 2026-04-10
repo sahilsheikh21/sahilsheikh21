@@ -51,24 +51,6 @@ Currently obsessing over: clean APIs, fast UIs, and systems that scale.
 
 ---
 
-### `$ cat ./stats`
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=sahilsheikh21&show_icons=true&theme=default&hide_border=true&count_private=true&title_color=111111&text_color=555555&icon_color=111111&bg_color=ffffff" />
-&nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahilsheikh21&layout=compact&hide_border=true&title_color=111111&text_color=555555&bg_color=ffffff&langs_count=6" />
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=sahilsheikh21&theme=default&hide_border=true&stroke=eeeeee&ring=111111&fire=111111&currStreakLabel=111111&sideLabels=555555&dates=999999&sideNums=111111&currStreakNum=111111" />
-
-</div>
-
----
-
 ### `$ tail -f ./activity`
 
 <div align="center">
@@ -78,23 +60,6 @@ Currently obsessing over: clean APIs, fast UIs, and systems that scale.
 <img src="https://raw.githubusercontent.com/sahilsheikh21/sahilsheikh21/output/github-contribution-grid-snake.svg" alt="contribution snake" />
 
 </div>
-
----
-
-### `$ cat ./now`
-
-> Currently reading: *[your current book]*
-> Currently building: *[your WIP project]*
-> Currently learning: *[what you're exploring]*
-
----
-
-### `$ cat ./philosophy`
-
-```
-Write code like the next person who reads it is a stranger
-who knows where you live.
-```
 
 ---
 
