@@ -57,7 +57,7 @@ Currently obsessing over: clean APIs, fast UIs, and systems that scale.
 
 <!-- Snake contribution graph — add this GitHub Action to auto-generate: -->
 <!-- https://github.com/Platane/snk -->
-<img src="https://raw.githubusercontent.com/sahilsheikh21/sahilsheikh21/output/github-contribution-grid-snake.svg" alt="contribution snake" />
+<img src="https://raw.githubusercontent.com/sahilsheikh21/sahilsheikh21/output/physics.svg" alt="physics" />
 
 </div>
 
