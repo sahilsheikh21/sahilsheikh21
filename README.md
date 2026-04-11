@@ -12,8 +12,8 @@
 
 <!-- Social badges — clean, monochrome style -->
 [![GitHub](https://img.shields.io/badge/GitHub-sahilsheikh21-111?style=flat-square&logo=github&logoColor=white)](https://github.com/sahilsheikh21)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/sahilsheikh21)
-[![Email](https://img.shields.io/badge/Email-say%20hi-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sahilsheikh21@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![Email](https://img.shields.io/badge/Email-say%20hi-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sahilsheikh3000@gmail.com)
 
 </div>
 
