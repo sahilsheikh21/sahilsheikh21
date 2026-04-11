@@ -67,6 +67,5 @@ Currently obsessing over: clean APIs, fast UIs, and systems that scale.
 
 <img src="https://komarev.com/ghpvc/?username=sahilsheikh21&style=flat-square&color=111111&label=profile+views" alt="profile views" />
 
-*Last updated: auto-generated · Open to collabs, conversations, and coffee*
 
 </div>
