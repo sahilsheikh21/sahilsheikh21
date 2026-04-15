@@ -8,14 +8,14 @@ var LF=PX+PW, RF=W-PX-PW;
 
 var items=[
   {text:'sahilsheikh21',color:'#ffffff',bg:'#222222',size:13,bold:true},
-  {text:'JavaScript',   color:'#111111',bg:'#F7DF1E',size:11,bold:false},
-  {text:'TypeScript',   color:'#ffffff',bg:'#3178C6',size:11,bold:false},
-  {text:'React',        color:'#111111',bg:'#61DAFB',size:11,bold:false},
-  {text:'Next.js',      color:'#ffffff',bg:'#444444',size:11,bold:false},
-  {text:'Python',       color:'#ffffff',bg:'#3776AB',size:11,bold:false},
-  {text:'Node.js',      color:'#ffffff',bg:'#339933',size:11,bold:false},
+  {text:'Magnetic-Bird',   color:'#111111',bg:'#F7DF1E',size:11,bold:false},
+  {text:'LLMage',   color:'#ffffff',bg:'#3178C6',size:11,bold:false},
+  {text:'Companion',        color:'#111111',bg:'#61DAFB',size:11,bold:false},
+  {text:'Takeover',      color:'#ffffff',bg:'#444444',size:11,bold:false},
+  {text:'Pathfinder',       color:'#ffffff',bg:'#3776AB',size:11,bold:false},
+  {text:'Halo',      color:'#ffffff',bg:'#339933',size:11,bold:false},
   {text:'Docker',       color:'#ffffff',bg:'#2496ED',size:11,bold:false},
-  {text:'Postgres',     color:'#ffffff',bg:'#4169E1',size:11,bold:false},
+  {text:'Project23',     color:'#ffffff',bg:'#4169E1',size:11,bold:false},
   {text:'MongoDB',      color:'#ffffff',bg:'#47A248',size:11,bold:false},
 ];
 
