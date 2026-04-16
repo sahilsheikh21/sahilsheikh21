@@ -14,9 +14,9 @@ var items=[
   {text:'Takeover',      color:'#ffffff',bg:'#444444',size:11,bold:false},
   {text:'Pathfinder',       color:'#ffffff',bg:'#3776AB',size:11,bold:false},
   {text:'Halo',      color:'#ffffff',bg:'#339933',size:11,bold:false},
-  {text:'Docker',       color:'#ffffff',bg:'#2496ED',size:11,bold:false},
+  {text:'Project22',       color:'#ffffff',bg:'#2496ED',size:11,bold:false},
   {text:'Project23',     color:'#ffffff',bg:'#4169E1',size:11,bold:false},
-  {text:'MongoDB',      color:'#ffffff',bg:'#47A248',size:11,bold:false},
+  {text:'Project24',      color:'#ffffff',bg:'#47A248',size:11,bold:false},
 ];
 
 var seeds=[
