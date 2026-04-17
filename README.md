@@ -21,11 +21,7 @@
 
 ### `$ whoami`
 
-```
-Mixed-stack developer who values clarity over cleverness.
-I've worked across the full lifecycle — from wireframe to deployment.
-Currently obsessing over: clean APIs, fast UIs, and systems that scale.
-```
+<img src="pacman.svg" alt="Pac-Man eating text">
 
 ---
 
