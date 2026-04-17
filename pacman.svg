@@ -1,0 +1,76 @@
+
+<svg width="600" height="150" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* Pac-Man Movement */
+    .pacman {
+      animation: move 9s infinite;
+    }
+    @keyframes move {
+      0%   { transform: translate(10px, 20px) rotate(0deg); opacity: 1; }
+      25%  { transform: translate(450px, 20px) rotate(0deg); opacity: 1; }
+      26%  { transform: translate(450px, 70px) rotate(180deg); } /* Move down, flip */
+      51%  { transform: translate(10px, 70px) rotate(180deg); }
+      52%  { transform: translate(10px, 120px) rotate(0deg); } /* Move down, flip back */
+      77%  { transform: translate(450px, 120px) rotate(0deg); opacity: 1; }
+      78%  { transform: translate(450px, 120px) rotate(0deg); opacity: 0; }
+      100% { transform: translate(10px, 20px) rotate(0deg); opacity: 0; }
+    }
+
+    /* Text Styling */
+    .text {
+      font-family: monospace;
+      font-size: 18px;
+      fill: #c9d1d9; /* GitHub Dark Mode Text Color */
+    }
+
+    /* Masks that hide the text to simulate being "eaten" */
+    .mask-rect { fill: black; }
+    .mask-rect-1 { transform-origin: 25px 0; animation: eat1 9s infinite; }
+    .mask-rect-2 { transform-origin: 475px 0; animation: eat2 9s infinite; }
+    .mask-rect-3 { transform-origin: 25px 0; animation: eat3 9s infinite; }
+
+    @keyframes eat1 {
+      0% { transform: scaleX(0); }
+      25%, 100% { transform: scaleX(1); }
+    }
+    @keyframes eat2 {
+      0%, 26% { transform: scaleX(0); }
+      51%, 100% { transform: scaleX(1); }
+    }
+    @keyframes eat3 {
+      0%, 52% { transform: scaleX(0); }
+      77%, 100% { transform: scaleX(1); }
+    }
+  </style>
+
+  <defs>
+    <mask id="mask1">
+      <rect x="0" y="0" width="600" height="50" fill="white" />
+      <rect x="25" y="0" width="450" height="50" class="mask-rect mask-rect-1" />
+    </mask>
+    <mask id="mask2">
+      <rect x="0" y="50" width="600" height="50" fill="white" />
+      <rect x="25" y="50" width="450" height="50" class="mask-rect mask-rect-2" />
+    </mask>
+    <mask id="mask3">
+      <rect x="0" y="100" width="600" height="50" fill="white" />
+      <rect x="25" y="100" width="450" height="50" class="mask-rect mask-rect-3" />
+    </mask>
+  </defs>
+
+  <text x="35" y="27" class="text" mask="url(#mask1)">Hi! I am a developer eating code...</text>
+  <text x="35" y="77" class="text" mask="url(#mask2)">Working on full-stack web applications...</text>
+  <text x="35" y="127" class="text" mask="url(#mask3)">And always looking to learn new things!</text>
+
+  <g class="pacman">
+    <path fill="#CCAA00" d="M 0 0 L 15 -10 A 15 15 0 1 0 15 10 Z">
+      <animate attributeName="d"
+               values="M 0 0 L 15 -10 A 15 15 0 1 0 15 10 Z; 
+                       M 0 0 L 15 -2 A 15 15 0 1 0 15 2 Z; 
+                       M 0 0 L 15 -10 A 15 15 0 1 0 15 10 Z"
+               dur="0.3s"
+               repeatCount="indefinite" />
+    </path>
+    <circle cx="5" cy="-7" r="2" fill="black" />
+  </g>
+</svg>
