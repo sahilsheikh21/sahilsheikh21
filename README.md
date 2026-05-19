@@ -6,7 +6,7 @@
 <br/>
 
 <!-- Minimal tagline -->
-*full-stack thinker · clean code almost · always in the middle of things*
+*full-stack · clean code almost*
 
 <br/>
 
